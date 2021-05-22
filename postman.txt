@@ -1,0 +1,18 @@
+POST: http://localhost:8181/orders
+
+{
+"orderType":"Device",
+"itemName":"Iphone 7plus",
+"qty":"1",
+"fullName":"Noah Will",
+"address":"No:7734 Birchpond Drive, Los Angeles, CA 90003",
+"email":"noahwill12@gmail.com",
+"contactNo":"+15109634523"
+}
+
+POST: http://localhost:8080/inventory
+
+{
+"itemName": "Iphone 7plus",
+"qty":"1"
+}
